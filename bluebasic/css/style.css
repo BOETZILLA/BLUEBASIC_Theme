@@ -38,9 +38,17 @@ aside #right_aside_wrapper {
 }
 
 main {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: $main_widthpx;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1366px;
+    margin-top: 10px;
+}
+
+.title {
+    padding: 10px;
+    background-color: rgba(254,254,254,.5);
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 #overlay {
@@ -1962,6 +1970,12 @@ dl.bb-dl > dd > li {
 
 .contact-photo-wrapper img {width: 80px; height: 80px;}
 
+.contact-block-img {
+    width: 47px;
+    height: 47px;
+    margin: 2px;
+}
+
 img[src*="feedburner"] {
 
     visibility: hidden;
@@ -1998,4 +2012,17 @@ iframe {
 
 audio {
     width: 100%;
+}
+
+.hz_cover_photo img {
+    width: 100% !important;
+}
+
+.hz_card {
+    -moz-transform: translate(-%, -%) scale(, );
+    transform: translate(-%, -%) scale(, );
+    font-family: sans-serif, arial, freesans;
+    width: 100%;
+    overflow: hidden;
+    height: 350px !important;
 }
