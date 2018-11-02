@@ -2033,3 +2033,7 @@ audio {
     overflow: hidden;
     height: 350px !important;
 }
+
+.smiley .emoji {
+    float: none;
+}
