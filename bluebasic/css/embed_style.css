@@ -1,0 +1,11 @@
+ 
+.oembed.video {
+    padding-top: 56.25% !important;
+}
+
+iframe {
+    width: 100%;
+    position: relative;
+    height: 100%;
+
+}
