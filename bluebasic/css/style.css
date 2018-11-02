@@ -1158,7 +1158,7 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-head-new {
-    border-top: 0.1rem solid #007bff;
+    border-top: 0.0rem solid #007bff;
 }
 
 .wall-item-footer {
@@ -1206,6 +1206,10 @@ img.mail-conv-sender-photo {
 
 .wall-item-body a {
     padding-left: 2px;
+}
+
+.wall-item-body a:hover {
+    padding-left: 2px;
     text-decoration: underline;
 }
 
@@ -1252,7 +1256,7 @@ img.mail-conv-sender-photo {
 
 .widget {
     background-color: rgba(254,254,254,.5);
-    border: 1px solid rgba(254,254,254,.5);
+    border: 0px solid rgba(254,254,254,.5) !important;
     border-radius: 2px;
     margin-bottom: 1rem;
     padding: 0 0 0.7rem;
@@ -1260,7 +1264,7 @@ img.mail-conv-sender-photo {
 
 .widget h3 {
     margin-top: 0px;
-    border-bottom: 1px solid lightblue !important;
+    border-bottom: 0px solid lightblue !important;
     padding: 15px;
     background-color: $nav_bg !important;
     color: #fff;
@@ -1276,7 +1280,7 @@ img.mail-conv-sender-photo {
 }
 
 #datebrowse-sidebar select {
-	border: 1px solid #ccc;
+	border: 0px solid #ccc;
 	border-radius: $radius;
 }
 
@@ -1639,14 +1643,14 @@ img.zrl {
 
 .navbar-dark .navbar-nav .nav-link,
 .usermenu i {
-	color: $nav_icon_colour;
+	color: $nav_icon_colour !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover,
 .usermenu:focus i,
 .usermenu:hover i {
-	color: $nav_active_icon_colour;
+	color: $nav_active_icon_colour !important;
 }
 
 @media screen and (max-width: 992px) {
