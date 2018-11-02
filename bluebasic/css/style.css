@@ -1204,7 +1204,10 @@ img.mail-conv-sender-photo {
 	height: $reply_photo;
 }
 
-.wall-item-body a {padding-left: 2px; }
+.wall-item-body a {
+    padding-left: 2px;
+    text-decoration: underline;
+}
 
 .wall-item-ago,
 .dropdown-sub-text {
