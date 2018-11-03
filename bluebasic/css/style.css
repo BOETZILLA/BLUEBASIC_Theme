@@ -86,7 +86,7 @@ h6, .h6 {
 	font-size: 0.75rem;
 }
 
-#banner {
+#banner, .fc-content {
 	color: $banner_colour;
 	font-weight: bold;
 	white-space: nowrap;
@@ -2038,4 +2038,12 @@ audio {
 .smiley, .emoji {
     float: none !important;
     margin: 0 !important;
+}
+
+#tasklist-new-form {
+    margin: 5px;
+}
+
+#tasklist-new-summary {
+    width: 100%;
 }
