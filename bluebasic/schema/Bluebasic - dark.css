@@ -27,6 +27,16 @@ body {
     background-color: #ffffff;
 }
 
+.wall-item-body a {
+    color: #1b1935 !important; 
+    padding-left: 2px;
+}
+.wall-item-body a:hover {
+    color: #000 !important; 
+    padding-left: 2px;
+    text-decoration: underline;
+}
+
 .rounded-top, .wall-item-content-wrapper {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
