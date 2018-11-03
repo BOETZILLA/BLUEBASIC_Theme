@@ -1634,7 +1634,8 @@ img.zrl {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #000;
-    background-color: #d5e3ff;
+    background-color: $bgcolour !important;
+    border: 1px silver dotted;
 }
 
 .navbar {
@@ -2034,6 +2035,7 @@ audio {
     height: 350px !important;
 }
 
-.smiley .emoji {
-    float: none;
+.smiley, .emoji {
+    float: none !important;
+    margin: 0 !important;
 }
