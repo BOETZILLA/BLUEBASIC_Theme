@@ -1,7 +1,8 @@
 /**
- * Bluebasic (Redbasic clone)
+ * Bluebasic (A Redbasic clone)
  * Based on duepuntozero Friendica style
  * Originally by Fabio Comuni <fabrix.xm@gmail.com>
+ * Credit for far too many bits & pieces to Sean Tiley (dsh@deadsuperhero.com)
  * Maintained by boet@nexxt.social
  */
 
@@ -1246,17 +1247,19 @@ img.mail-conv-sender-photo {
 
 .divgrow-showmore {
     display: block;
-    border: 1px dotted #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 0px solid #ccc;
+    border-bottom: 1px solid #ccc;
     text-align: center;
     padding: 10px;
     margin: 0px 13px 0px 13px;
     background: #f7f7f7;
     border-radius: 0px;
-    border-top: 0px;
 }
 
-.divgrow-showmore:hover {
-	border-top: 0px dashed #adadad;
+a .divgrow-showmore .fakelink {
+	border-top: 1px solid #ccc;
 }
 
 .directory-item .divgrow-showmore {
