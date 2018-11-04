@@ -49,7 +49,7 @@ main {
     padding: 5px 15px;
     background-color: rgba(254,254,254,.5);
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 #overlay {
@@ -1278,9 +1278,18 @@ a .divgrow-showmore .fakelink {
 }
 
 #notifications {
-    margin: 1rem 0;
     border-radius: 0px !important;
+    margin-bottom: -10px;
 }
+
+
+.list-group-item:first-child, .list-group-item:last-child {
+    border-top-left-radius: .0rem;
+    border-top-right-radius: .0rem;
+    border-bottom-right-radius: .0rem;
+    border-bottom-left-radius: .0rem;
+}
+
 
 .widget h3 {
     margin-top: 0px;
