@@ -44,11 +44,11 @@ main {
     margin-top: 10px;
 }
 
-.title {
-    padding: 10px;
+.title, .location, .mf, .marital {
+    padding: 5px 15px;
     background-color: rgba(254,254,254,.5);
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 #overlay {
@@ -881,8 +881,10 @@ div.jGrowl div.jGrowl-notification {
 }
 
 .contact-block-content {
-	margin-top: 10px;
+    margin-top: 10px;
+    padding-left: 2px;
 }
+
 .contact-block-img.archived, .app-deleted, .dim {
 	opacity: 0.3;
 	filter:alpha(opacity=30);
@@ -1244,17 +1246,17 @@ img.mail-conv-sender-photo {
 
 .divgrow-showmore {
     display: block;
-    border: 1px dashed #ccc;
+    border: 1px dotted #ccc;
     text-align: center;
-    padding: 7px;
-    margin: 13px 13px 0px 13px;
-    background: rgb(238,238,238);
-
-    border-radius: 3px;
+    padding: 10px;
+    margin: 0px 13px 0px 13px;
+    background: #f7f7f7;
+    border-radius: 0px;
+    border-top: 0px;
 }
 
 .divgrow-showmore:hover {
-	border-top: 1px dashed #adadad;
+	border-top: 0px dashed #adadad;
 }
 
 .directory-item .divgrow-showmore {
@@ -1270,6 +1272,11 @@ img.mail-conv-sender-photo {
     border-radius: 2px;
     margin-bottom: 1rem;
     padding: 0 0 0.7rem;
+}
+
+#notifications {
+    margin: 1rem 0;
+    border-radius: 0px !important;
 }
 
 .widget h3 {
@@ -1552,12 +1559,13 @@ main.fullscreen .section-content-wrapper-np {
 
 
 
-blockquote {
+blockquote, .shared_container {
     font-size: 1rem;
     font-style: italic;
-    border: 1px dotted #ccc;
+    border: 1px solid #ccc;
     padding: 1em 1em 1em 2em;
     margin: 10px 0px;
+    background: #f7f7f7;
 }
 
 .wall-item-content blockquote img {
