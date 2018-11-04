@@ -35,3 +35,19 @@ body {
 .dropdown-item.active {
     color: #fff !important;
 }
+
+.wall-item-body a {
+    color: #1b1935 !important; 
+    padding-left: 2px;
+    text-decoration: underline;
+}
+.wall-item-body a:hover {
+    color: #000 !important; 
+    padding-left: 2px;
+    text-decoration: none;
+}
+
+.rounded-top, .wall-item-content-wrapper {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}

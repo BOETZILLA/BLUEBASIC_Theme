@@ -16,7 +16,7 @@ body {
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
-.bg-dark, #menu_logo, .widget h3, .bg-primary, .section-title-wrapper  {
+.bg-dark, #menu_logo, .widget h3, .bg-primary  {
     background-color: #4267a8 !important;
     color: #fff;
 }
@@ -33,11 +33,11 @@ a, .fakelink {
     color: #4267a8 !important;
 }
 
-.section-title-wrapper a  {
-        color: #fff !important;
+.section-title-wrapper {
+    color: $font_colour !important;
+    background: #fff;
 }
 
-.dropdown-item.active {
-    color: #fff !important;
-    background-color: #4267a8 !important;
+.section-title-wrapper a {
+        color: $nav_colour !important;
 }
