@@ -45,9 +45,8 @@ main {
     margin-top: 10px;
 }
 
-.title, .location, .mf, .marital {
-    padding: 5px 15px;
-    background-color: rgba(254,254,254,.5);
+.title, .location, .mf, .marital, .homepage {
+    padding: 0px 20px;
     width: 100%;
     margin-bottom: 0em;
 }
