@@ -1,9 +1,8 @@
 
-{{$contact_block}}
 
-{{$rating}}
 
-	{{if $pdesc}}<div class="widget"><h3>Info</h3><div class="title">{{$profile.pdesc}}</div>{{/if}}
+	{{if $pdesc}}<div class="widget"><h3>About</h3>
+	<div class="title">{{$profile.pdesc}}</div>{{/if}}
 
 	{{if $location}}
 		<dl class="location"><dt class="location-label">{{$location}}</dt> 
@@ -31,7 +30,9 @@
 
 {{$chanmenu}}
 
+{{$contact_block}}
 
+{{$rating}}
 
 	{{if $connect}}
 	<div class="connect-btn-wrapper"><a href="{{$connect_url}}" class="btn btn-block btn-success btn-sm"><i class="fa fa-plus"></i> {{$connect}}</a></div>
