@@ -49,7 +49,7 @@ main {
     padding: 5px 15px;
     background-color: rgba(254,254,254,.5);
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 0em;
 }
 
 #overlay {
@@ -898,13 +898,13 @@ div.jGrowl div.jGrowl-notification {
 
 .shared_header {
     margin-bottom: 20px;
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid lightgrey;
     padding-bottom: 20px;
 }
 
 .shared_header img {
     border-radius: 0.25rem;
-    margin: 0px 10px 10px 0px !important;
+    margin: -5px 5px 0px 0px !important;
 }
 
 .shared_container {
@@ -1208,7 +1208,12 @@ img.mail-conv-sender-photo {
     max-width: 100%;
     float: left;
     clear: both;
-    margin: 10px 15px 10px 0px;
+    margin: 5px 15px 10px 0px;
+}
+
+.wall-item-content blockquote img {
+    margin: 0px 15px 15px -20px;
+    padding: 0px 0px 0px 20px;
 }
 
 .comment .wall-item-photo {
@@ -1217,12 +1222,11 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-body a {
-    padding-left: 2px;
+    padding-left: 0px;
     text-decoration: none !important;
 }
 
 .wall-item-body a:hover {
-    padding-left: 2px;
     text-decoration: underline !important;
 }
 
@@ -1247,14 +1251,14 @@ img.mail-conv-sender-photo {
 
 .divgrow-showmore {
     display: block;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    border-left: 0px solid #ccc;
+    border-right: 0px solid #ccc;
     border-top: 0px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 0px solid #ccc;
     text-align: center;
     padding: 10px;
     margin: 0px 13px 0px 13px;
-    background: #f7f7f7;
+    background: #f0f0f0;
     border-radius: 0px;
 }
 
@@ -1272,22 +1276,18 @@ a .divgrow-showmore .fakelink {
 .widget {
     background-color: rgba(254,254,254,.5);
     border: 0px solid rgba(254,254,254,.5) !important;
-    border-radius: 2px;
+    border-radius: 0px;
     margin-bottom: 1rem;
     padding: 0 0 0.7rem;
 }
 
-#notifications {
-    border-radius: 0px !important;
-    margin-bottom: -10px;
-}
 
 
 .list-group-item:first-child, .list-group-item:last-child {
-    border-top-left-radius: .0rem;
-    border-top-right-radius: .0rem;
-    border-bottom-right-radius: .0rem;
-    border-bottom-left-radius: .0rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
 }
 
 
@@ -1395,10 +1395,10 @@ a .divgrow-showmore .fakelink {
 }
 
 .generic-content-wrapper {
-	border: 1px solid rgba(0, 0, 0, .2);
-	border-radius: $radius;
-	margin-bottom: 1.5rem;
-        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    border: 1px dotted rgba(0, 0, 0, .1);
+    border-radius: 0px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
 }
 
 .reshared-content {
@@ -1573,17 +1573,14 @@ main.fullscreen .section-content-wrapper-np {
 
 blockquote, .shared_container {
     font-size: 1rem;
-    font-style: italic;
-    border: 1px solid #ccc;
-    padding: 1em 1em 1em 2em;
-    margin: 10px 0px;
-    background: #f7f7f7;
+    font-style: normal;
+    border: 0px solid #ccc;
+    padding: 1em 1em 1em 1.5em;
+    margin: 1em 0;
+    background: #f0f0f0;
 }
 
-.wall-item-content blockquote img {
-    margin: 0px 10px 10px -15px;
-    padding: 10px 0px 0px 10px;
-}
+
 
 .dropdown-menu {
 	color: $font_colour !important;
@@ -1657,6 +1654,7 @@ img.zrl {
     width: 100% !important;
     height: auto;
     float: initial;
+    max-width: 100% important;
 }
 
 .logo {    font-size: 5rem;
@@ -2086,8 +2084,28 @@ audio {
     font-family: sans-serif, arial, freesans !important;
     width: 100% !important;
     overflow: hidden !important;
-    height: 350px !important;
+    height: 320px !important;
     margin-bottom: 10px !important;
+}
+
+.hz_profile_photo {
+    position: relative;
+    top: -195px !important;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.hz_profile_photo img {
+    position: relative;
+    top: -5px;
+    left: 0px;
+    border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    padding: 1px !important;
+    width: 150px;
+    height: 150px;
 }
 
 .hz_name, .hz_addr {
@@ -2096,9 +2114,12 @@ audio {
 }
 
 .hz_name {
+    top: -95px !important;
+    left: 210px !important;
     text-transform: uppercase;
     letter-spacing: -2px;
 }
+
 
 .smiley, .emoji {
     float: none !important;
@@ -2121,4 +2142,3 @@ audio {
         color: #000 !important;
         z-index: 1;
 }
-
