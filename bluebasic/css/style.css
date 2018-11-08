@@ -1207,12 +1207,22 @@ img.mail-conv-sender-photo {
     max-width: 100%;
     float: left;
     clear: both;
-    margin: 5px 15px 10px 0px;
+    margin: 15px 15px 10px 0px;
 }
 
 .wall-item-content blockquote img {
-    margin: 0px 15px 15px -20px;
-    padding: 0px 0px 0px 20px;
+    margin: 5px 15px 15px 0px;
+}
+
+blockquote, .shared_container {
+
+    font-size: 1rem;
+    font-style: normal;
+    border: 0px solid #ccc;
+    padding: 1em;
+    margin: 1em 0 0;
+    background: #f0f0f0;
+
 }
 
 .comment .wall-item-photo {
@@ -1567,19 +1577,6 @@ main.fullscreen .section-content-wrapper-np {
 	border-top-left-radius: $radius !important;
 	border-top-right-radius: $radius !important;
 }
-
-
-
-blockquote, .shared_container {
-    font-size: 1rem;
-    font-style: normal;
-    border: 0px solid #ccc;
-    padding: 1em 1em 1em 1.5em;
-    margin: 1em 0;
-    background: #f0f0f0;
-}
-
-
 
 .dropdown-menu {
 	color: $font_colour !important;
