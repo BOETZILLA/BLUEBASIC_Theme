@@ -46,7 +46,7 @@ main {
 }
 
 .title, .location, .mf, .marital, .homepage {
-    padding: 0px 20px;
+    padding: 5px 15px 0;
     width: 100%;
     margin-bottom: 0em;
 }
@@ -2073,19 +2073,16 @@ audio {
     width: 100%;
 }
 
-.hz_cover_photo img {
-    width: 100% !important;
+.hz_card {
+    height: 350px !important;
 }
 
-.hz_card {
-    -moz-transform: translate(-%, -%) scale(, );
-    transform: translate(-%, -%) scale(, );
-    font-family: sans-serif, arial, freesans !important;
-    width: 100% !important;
-    overflow: hidden !important;
-    height: 320px !important;
-    margin-bottom: 10px !important;
+.hz_cover_photo img {
+    width: auto !important;
+    max-height: 315px !important;
 }
+
+
 
 .hz_profile_photo {
     position: relative;
