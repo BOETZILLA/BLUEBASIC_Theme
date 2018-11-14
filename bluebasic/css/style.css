@@ -1168,6 +1168,10 @@ img.mail-conv-sender-photo {
 	border-top: 1px dashed #adadad;
 }
 
+.wall-item-head {
+    margin-bottom: -0.9rem;
+}
+
 .wall-item-head-new {
     border-top: 0.0rem solid #007bff;
 }
@@ -1207,11 +1211,11 @@ img.mail-conv-sender-photo {
     max-width: 100%;
     float: left;
     clear: both;
-    margin: 15px 15px 10px 0px;
+    margin: 10px 15px 15px 0px;
 }
 
 .wall-item-content blockquote img {
-    margin: 5px 15px 15px 0px;
+    margin: 0px 15px 15px 0px !important;
 }
 
 blockquote, .shared_container {
@@ -1233,6 +1237,7 @@ blockquote, .shared_container {
 .wall-item-body a {
     padding-left: 0px;
     text-decoration: none !important;
+    position: relative;
 }
 
 .wall-item-body a:hover {
@@ -2055,6 +2060,7 @@ iframe {
     width: 100% !important;
     margin: 0 !important;
     height: 500px;
+    margin-bottom: 10px !important;
 }
 
 .oembed.video iframe, .oembed.video html, .oembed.video body, .oembed.video img {
@@ -2062,8 +2068,8 @@ iframe {
     height: 500px;
     position: relative;
     margin-top: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 audio {
