@@ -897,13 +897,14 @@ div.jGrowl div.jGrowl-notification {
 
 .shared_header {
     margin-bottom: 20px;
+    margin-top: 6px;
     border-bottom: 1px solid lightgrey;
     padding-bottom: 20px;
 }
 
 .shared_header img {
     border-radius: 0.25rem;
-    margin: -5px 5px 0px 0px !important;
+    margin: -5px 10px 0px 0px !important;
 }
 
 .shared_container {
@@ -1169,7 +1170,8 @@ img.mail-conv-sender-photo {
 }
 
 .wall-item-head {
-    margin-bottom: -0.9rem;
+    padding-top: 0.45rem;
+    margin-bottom: -0.45rem;
 }
 
 .wall-item-head-new {
@@ -1179,6 +1181,9 @@ img.mail-conv-sender-photo {
 .wall-item-footer {
 	font-size: 0.75rem;
 	margin-top: 2em;
+}
+.wall-item-tools {
+	margin-top: -0.45rem;    
 }
 
 .p-2  {
@@ -1205,7 +1210,10 @@ img.mail-conv-sender-photo {
 	border: none;
 	border-radius: $radius;
 	box-shadow: $shadowpx $shadowpx $shadowpx 0 #444444;
+        margin-right: 3px;
 }
+
+
 
 .wall-item-content img {
     max-width: 100%;
@@ -1271,7 +1279,7 @@ blockquote, .shared_container {
     border-bottom: 0px solid #ccc;
     text-align: center;
     padding: 10px;
-    margin: 0px 13px 0px 13px;
+    margin: 0px 13px 13px 13px;
     background: #f0f0f0;
     border-radius: 0px;
 }
@@ -2025,7 +2033,7 @@ dl.bb-dl > dd > li {
     white-space: nowrap !important;
     vertical-align: baseline !important;
     border-radius: 0 !important;
-    font-size: 0.75rem !important;
+    font-size: 0.9rem !important;
 
 }
 
