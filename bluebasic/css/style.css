@@ -2088,6 +2088,10 @@ audio {
     height: 350px !important;
 }
 
+.hz_card hz_small{
+    height: 0px !important;
+}
+
 .hz_cover_photo img {
     width: auto !important;
     max-height: 315px !important;
