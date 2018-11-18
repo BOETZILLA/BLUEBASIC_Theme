@@ -1,5 +1,5 @@
 /**
- * redbasic theme specific JavaScript
+ * bluebasic theme specific JavaScript
  */
 
 $(document).ready(function() {
