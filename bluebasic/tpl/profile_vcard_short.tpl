@@ -1,7 +1,7 @@
 
 
 
-	{{if $pdesc}}<div class="widget"><h3>About</h3>
+	{{if $pdesc}}<div class="widget"><h3>Channel Info</h3>
 	<div class="title">{{$profile.pdesc}}</div>{{/if}}
 
 	{{if $location}}
