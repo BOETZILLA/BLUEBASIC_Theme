@@ -4,7 +4,7 @@ This is a variation of the Hubzilla standard theme "Redbasic". It is heavily ins
 
 <img src="https://nexxt.social/view/theme/bluebasic/img/screenshot.png">
 
-The theme makes use of all available theme settings and is fully colour customizable by using the theme settings. It ships with a default scheme, which gives you some basic colours, if you don't want to configure it yourself. 
+The theme makes use of all available theme settings and is fully colour customizable by using the theme settings. It ships with 3 default schemes, which gives you some basic colours, if you don't want to configure it yourself. 
 
 These files need to be saved in the /view/theme/ directory of your Hubzilla. You can just ftp the files onto your hub or SSH into that directory and git clone this repo.
 
