@@ -1230,11 +1230,17 @@ blockquote, .shared_container {
 
     font-size: 1rem;
     font-style: normal;
-    border: 1px solid lightgrey;
+    border: 0px solid lightgrey;
     padding: 1em;
     margin: 1em 0 0;
-    background: #f0f0f0;
+}
 
+blockquote {
+    background: rgba(168,168,168,.1);    
+}
+
+.shared_container {
+    background: rgba(168,168,168,.1);    
 }
 
 .comment .wall-item-photo {
@@ -1273,14 +1279,14 @@ blockquote, .shared_container {
 
 .divgrow-showmore {
     display: block;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
+    border-left: 0px solid lightgrey;
+    border-right: 0px solid lightgrey;
     border-top: 0px solid #ccc;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 0px solid lightgrey;
     text-align: center;
     padding: 10px;
-    margin: -13px 13px 13px 12px;
-    background: #f0f0f0;
+    margin: -13px 13px 13px 13px;
+    background: #f6f6f6;
     border-radius: 0px;
     position: relative;
 }
