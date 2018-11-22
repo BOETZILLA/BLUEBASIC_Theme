@@ -896,7 +896,7 @@ div.jGrowl div.jGrowl-notification {
 .reshared-content { margin-left: 20px; }
 
 .shared_header {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 6px;
     border-bottom: 1px solid lightgrey;
     padding-bottom: 20px;
@@ -1230,7 +1230,7 @@ blockquote, .shared_container {
 
     font-size: 1rem;
     font-style: normal;
-    border: 0px solid #ccc;
+    border: 1px solid lightgrey;
     padding: 1em;
     margin: 1em 0 0;
     background: #f0f0f0;
@@ -1273,16 +1273,20 @@ blockquote, .shared_container {
 
 .divgrow-showmore {
     display: block;
-    border-left: 0px solid #ccc;
-    border-right: 0px solid #ccc;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
     border-top: 0px solid #ccc;
-    border-bottom: 0px solid #ccc;
+    border-bottom: 1px solid lightgrey;
     text-align: center;
     padding: 10px;
-    margin: 0px 13px 13px 13px;
+    margin: -13px 13px 13px 12px;
     background: #f0f0f0;
     border-radius: 0px;
+    position: relative;
 }
+
+
+
 
 a .divgrow-showmore .fakelink {
 	border-top: 1px solid #ccc;
@@ -1290,6 +1294,7 @@ a .divgrow-showmore .fakelink {
 
 .directory-item .divgrow-showmore {
 	background-color: $comment_item_colour;
+        margin: 0px;
 }
 
 
@@ -1419,7 +1424,7 @@ a .divgrow-showmore .fakelink {
 .generic-content-wrapper {
     border: 1px dotted rgba(0, 0, 0, .1);
     border-radius: 0px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
 }
 
@@ -2022,20 +2027,7 @@ dl.bb-dl > dd > li {
     color: $font_colour !important;
 }
 
-.badge {
-    display: inline-block;
-    padding: .25em .4em;
-        padding-right: 0.4em;
-        padding-left: 0.4em;
-    font-weight: 400 !important;
-    line-height: 1 !important;
-    text-align: center !important;
-    white-space: nowrap !important;
-    vertical-align: baseline !important;
-    border-radius: 0 !important;
-    font-size: 0.9rem !important;
 
-}
 
 .contact-photo-wrapper img {width: 80px; height: 80px;}
 
@@ -2051,33 +2043,39 @@ img[src*="feedburner"] {
     display: none;
 }
 
- 
+
+
 .oembed.video {
     padding-top: 56.25% !important;
 }
 
 iframe {
     width: 100%;
-    position: relative;
+ 
     height: 100%;
-
 }
 
+.oembed.rich {
+     position: relative;
+     width: 100%;
+     height: 0;
+     padding-bottom: 56.25%;
+}
 
 .oembed.video a {
     width: 100% !important;
-    margin: 0 !important;
-    height: 500px;
-    margin-bottom: 10px !important;
+    height: 480px;
+    margin: 0em 0em 2em 0em !important;
 }
+
 
 .oembed.video iframe, .oembed.video html, .oembed.video body, .oembed.video img {
     width: 100% !important;
-    height: 500px;
+    height: 490px;
     position: relative;
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    margin: 1em 0em 1em 0em !important;
+    background-color: #000;
 }
 
 audio {
@@ -2088,8 +2086,8 @@ audio {
     height: 350px !important;
 }
 
-.hz_card hz_small{
-    height: 0px !important;
+.hz_card.hz_small {
+    height: 195px !important;
 }
 
 .hz_cover_photo img {
@@ -2097,6 +2095,16 @@ audio {
     max-height: 315px !important;
 }
 
+.hz_card.hz_small .hz_cover_photo.img {
+    position: relative;
+    top: -75px;
+    left: 20px;
+    /* background-color: #FFFFFF; */
+    /* border: 1px solid #ddd; */
+    padding: 3px;
+    width: 80px;
+    height: 80px;
+}
 
 
 .hz_profile_photo {
