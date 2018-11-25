@@ -13,10 +13,10 @@ class bluebasicConfig {
 
 			if(in_array('view/theme/bluebasic/schema/default.php', $files)) {
 				$scheme_choices['---'] = t('Default');
-				$scheme_choices['focus'] = t('Focus (Hubzilla default)');
+				$scheme_choices['focus'] = t('Bluebasic - Facebonk');
 			}
 			else {
-				$scheme_choices['---'] = t('Focus (Hubzilla default)');
+				$scheme_choices['---'] = t('Bluebasic - Facebonk');
 			}
 
 			foreach($files as $file) {

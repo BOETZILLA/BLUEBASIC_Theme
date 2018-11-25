@@ -38,16 +38,31 @@ body {
 
 .wall-item-body a {
     color: #1b1935 !important; 
-    padding-left: 2px;
-    text-decoration: underline;
+    padding-left: 0px;
+    text-decoration: none !important;
 }
 .wall-item-body a:hover {
     color: #000 !important; 
-    padding-left: 2px;
-    text-decoration: none;
+    padding-left: 0px;
+    text-decoration: underline !important;
 }
 
 .rounded-top, .wall-item-content-wrapper {
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+        padding-right: 0.4em;
+        padding-left: 0.4em;
+    font-weight: 400 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: baseline !important;
+    border-radius: 0 !important;
+    font-size: 0.9rem !important;
+
 }

@@ -1,6 +1,3 @@
-
-
-
 	{{if $pdesc}}<div class="widget"><h3>Channel Info</h3>
 	<div class="title">{{$profile.pdesc}}</div>{{/if}}
 
@@ -30,7 +27,7 @@
 
 {{$chanmenu}}
 
-{{$contact_block}}
+
 
 {{$rating}}
 
@@ -39,4 +36,4 @@
 	{{/if}}
 
 
-
+{{$contact_block}}
