@@ -2090,38 +2090,6 @@ audio {
     width: 100%;
 }
 
-.hz_card {
-    height: 350px !important;
-}
-
-.hz_card.hz_small {
-    height: 195px !important;
-}
-
-.hz_cover_photo img {
-    width: auto !important;
-    max-height: 315px !important;
-}
-
-.hz_card.hz_small .hz_cover_photo.img {
-    position: relative;
-    top: -75px;
-    left: 20px;
-    /* background-color: #FFFFFF; */
-    /* border: 1px solid #ddd; */
-    padding: 3px;
-    width: 80px;
-    height: 80px;
-}
-
-
-.hz_profile_photo {
-    position: relative;
-    top: -195px !important;
-    left: 10px;
-    width: 150px;
-    height: 150px;
-}
 
 
 .hz_profile_photo img {
@@ -2146,6 +2114,12 @@ audio {
     text-transform: uppercase;
     letter-spacing: -2px;
 }
+
+
+.hz_card, .hz_small img {
+    margin: 0px 15px 0px 0px !important;
+}
+
 
 
 .smiley, .emoji {
