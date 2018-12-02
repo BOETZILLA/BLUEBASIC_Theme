@@ -23,6 +23,8 @@ body {
 	margin: 0px;
 }
 
+object {width: 100% !important;}
+
 aside {
 	width: $aside_widthpx;
 	min-width: $aside_widthpx;
@@ -1285,7 +1287,7 @@ blockquote {
     border-bottom: 0px solid lightgrey;
     text-align: center;
     padding: 10px;
-    margin: -13px 13px 13px 13px;
+    margin: -13px 13px 13px 12px;
     background: #f6f6f6;
     border-radius: 0px;
     position: relative;
@@ -2166,4 +2168,8 @@ audio {
 .acl-form-trigger {
         color: #000 !important;
         z-index: 1;
+}
+
+#colorbox {
+    max-width: 100% !important;
 }
