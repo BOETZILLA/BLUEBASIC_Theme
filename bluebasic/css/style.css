@@ -2090,7 +2090,11 @@ audio {
     width: 100%;
 }
 
-
+.hz_cover_photo img {
+    width: auto;
+    /* max-width: 100%; */
+    height: 315px;
+}
 
 .hz_profile_photo img {
     position: relative;
