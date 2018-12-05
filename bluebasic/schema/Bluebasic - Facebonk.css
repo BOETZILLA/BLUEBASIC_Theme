@@ -16,10 +16,7 @@ body {
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
-.bg-dark, #menu_logo, .widget h3, .bg-primary  {
-    background-color: #4267a8 !important;
-    color: #fff;
-}
+
 
 .widget {
     background-color: rgba(254,254,254,.9);
@@ -31,6 +28,11 @@ body {
 
 a, .fakelink {
     color: #4267a8 !important;
+}
+
+.bg-dark, #menu_logo, .widget h3, .bg-primary , .wall-item-title, .wall-item-title.h3 a {
+    background-color: #4267a8 !important;
+    color: #fff !important;
 }
 
 .section-title-wrapper {
