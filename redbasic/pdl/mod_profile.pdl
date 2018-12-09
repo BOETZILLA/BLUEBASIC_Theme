@@ -1,0 +1,16 @@
+[region=aside]
+[widget=userlogomenu][/widget]
+[widget=photo_albums][/widget]
+[widget=notifications][/widget]
+[widget=contact-block][/widget]
+[/region]
+
+[region=content]
+[widget=zcard][/widget]
+$content
+[/region]
+
+[region=right_aside]
+[menu]other_channels[/menu]
+[menu]roll[/menu]
+[/region]

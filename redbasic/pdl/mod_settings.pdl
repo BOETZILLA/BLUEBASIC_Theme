@@ -1,0 +1,11 @@
+[region=aside]
+[widget=userlogomenu][/widget]
+[widget=settings_menu][/widget]
+[widget=design_tools][/widget]
+[/region]
+
+[region=right_aside]
+[widget=design_tools][/widget]
+[widget=notifications][/widget]
+[widget=newmember][/widget]
+[/region]
