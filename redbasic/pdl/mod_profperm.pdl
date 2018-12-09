@@ -1,0 +1,8 @@
+[region=aside]
+[widget=userlogomenu][/widget]
+[widget=fullprofile][/widget]
+[/region]
+[region=right_aside]
+[widget=notifications][/widget]
+[widget=newmember][/widget]
+[/region]

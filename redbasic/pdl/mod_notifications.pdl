@@ -6,7 +6,6 @@
 [/region]
 
 [region=content]
-[widget=zcard][/widget]
 $content
 [/region]
 

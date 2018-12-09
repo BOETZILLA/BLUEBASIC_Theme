@@ -1,0 +1,13 @@
+[region=nav]$nav[/region]
+
+[region=aside]
+[widget=userlogomenu][/widget]
+[/region]
+
+[region=content]
+$content
+[/region]
+
+[region=right_aside]
+[widget=notifications][/widget]
+[/region]
