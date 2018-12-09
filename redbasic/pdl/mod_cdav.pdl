@@ -1,8 +1,0 @@
-[region=aside]
-[widget=userlogomenu][/widget]
-[widget=cdav][/widget]
-[/region]
-[region=right_aside]
-[widget=notifications][/widget]
-[widget=newmember][/widget]
-[/region]
